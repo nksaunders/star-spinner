@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
     <title>Stellar Properties</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="icon" href="data:,">
 </head>
 <script>
 function myFunction() {
@@ -41,8 +42,10 @@ var feh= $('#feh').val();
             [Fe/H] <input type="text" id="feh" name="feh"><br><br>
             <button id="clicked" onclick="myFunction()">Submit</button>
         </p>
-    <div class="show-data" >
+      <div class="container">
+      <div class="show-data" >
 
+      </div>
     </div>
 </body>
 </html>
