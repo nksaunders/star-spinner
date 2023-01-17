@@ -249,6 +249,8 @@ def create_MESA_track(npoints=10000, min_age=0.01, max_age=10., plot=True,
         ax.plot(age_sample, Prots, c='cornflowerblue')
         ax.set_xlabel('Age [Gyr]'); ax.set_ylabel('P [days]');
 
+        fig = plt.gcf()
+        fig.patch.set_facecolor('white')
         fig.tight_layout()
         plt.show()
 
@@ -298,6 +300,8 @@ def create_YREC_track(npoints=10000, min_age=0.01, max_age=10., plot=True,
         ax.plot(age_sample, Prots, c='cornflowerblue')
         ax.set_xlabel('Age [Gyr]'); ax.set_ylabel('P [days]');
 
+        fig = plt.gcf()
+        fig.patch.set_facecolor('white')
         fig.tight_layout()
         plt.show()
 
