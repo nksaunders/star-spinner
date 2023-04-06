@@ -14,9 +14,9 @@ matplotlib.rc('font', **font)
 def emulate(inputs, grid):
 
     if grid=='MESA':
-        path = 'data/models/model_amp'
+        path = '/Users/nksaunders/Documents/Github/star-spinner/data/models/rotated_mesa'
     elif grid=='YREC':
-        path='data/models/model_4'
+        path='/Users/nksaunders/Documents/Github/star-spinner/data/models/model_4'
     else:
         raise Exception('Please specify `grid`. Accepted values: `MESA` or `YREC`.')
     model = load_model(path)
@@ -97,7 +97,7 @@ def create_MESA_population(nstars=10000, fk=7.5, rocrit=1.6, plot=True, save_dat
                                         feh_sample, efeh,
                                         Y_sample, err_Yini,
                                         alpha_sample, err_alpha,
-                                        fk_sample, rocrits,
+                                        fk_sample, rocrit_sample,
                                         Teffs, err_Teff,
                                         Rs, err_R,
                                         surface_fehs, Prots, err_P]).T,
@@ -174,7 +174,7 @@ def create_YREC_population(nstars=10000, fk=7.5, rocrit=1.6, plot=True, save_dat
                                         Ls, err_L,
                                         feh_sample, efeh,
                                         alpha_sample, err_alpha,
-                                        fk_sample, rocrits,
+                                        fk_sample, rocrit_sample,
                                         Teffs, err_Teff,
                                         Rs, err_R,
                                         surface_fehs, Prots, err_P]).T,
