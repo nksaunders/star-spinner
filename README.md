@@ -1,1 +1,1 @@
-# stelevator: a <span style="color:blue">stel</span>lar <span style="color:blue">ev</span>olution emul<span style="color:blue">ator</span>.
+<ins>**stelevator**</ins>: a <ins>**stel**</ins>lar <ins>**ev**</ins>olution emul<ins>**ator**</ins>.
