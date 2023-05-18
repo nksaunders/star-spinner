@@ -14,7 +14,7 @@ matplotlib.rc('font', **font)
 def emulate(inputs, grid):
 
     if grid=='MESA':
-        path = '/Users/nksaunders/Documents/Github/star-spinner/data/models/rotated_mesa'
+        path = '/Users/nksaunders/Documents/Github/star-spinner/data/models/rotated_mesa_run3'
     elif grid=='YREC':
         path='/Users/nksaunders/Documents/Github/star-spinner/data/models/model_4'
     else:
